@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import LinkList from "./LinkList";
+import CreateLink from "./CreateLink";
 
 export default class App extends Component {
   render() {
-    return <LinkList />;
+    return <CreateLink />;
   }
 }
